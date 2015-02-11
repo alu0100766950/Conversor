@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <title>Test</title>
-  <link rel="stylesheet" media="all" href="vendor/mocha.css">
+  <link rel="stylesheet" media="all" href="mocha.css">
 </head>
 <body>
   <div id="mocha"></div>
   <div id="messages"></div>
   <div id="fixtures"></div>
-  <script src="vendor/mocha.js"></script>
-  <script src="vendor/chai.js"></script>
-  <script src="vendor/blanket.js"
-          data-cover-adapter="vendor/mocha-blanket.js"></script>
+  <script src="mocha.js"></script>
+  <script src="chai.js"></script>
+  <script src="blanket.js"
+          data-cover-adapter="mocha-blanket.js"></script>
   <script>mocha.setup('bdd');</script>
   <script src="cow.js" data-cover></script>
   <script src="cow_test.js"></script>
