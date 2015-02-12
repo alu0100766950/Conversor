@@ -1,29 +1,24 @@
 {
   "name": "Conversor",
   "version": "1.0.0",
-  "description": "Codigo para convertir de Farenheit a Celsius y viceversa.",
+  "description": "Conversor Farenhei-Celsius",
   "main": "temperature.js",
   "directories": {
     "test": "tests"
   },
   "dependencies": {
+    "gulp": "^3.8.11",
     "chai": "^1.10.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.4.3",
+    "gulp-minify-html": "^0.1.8",
+    "gulp-uglify": "^1.1.0"
+  },
   "scripts": {
-    "test": "firefox ./tests/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:alu0100766950/Conversor.git"
-  },
-  "keywords": [
-    "conversor"
-  ],
-  "author": "José Carlos Rodríguez Cortés",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alu0100766950/Conversor/issues"
-  },
-  "homepage": "https://github.com/alu0100766950/Conversor"
+  "author": "José Carlos",
+  "license": "MIT"
 }
